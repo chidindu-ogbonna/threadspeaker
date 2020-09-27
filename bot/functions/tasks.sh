@@ -1,1 +1,1 @@
-gcloud tasks queues create bot-queue --project=datahorror
+gcloud tasks queues create reply-queue --project=datahorror
