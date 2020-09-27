@@ -1,0 +1,9 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /threads/{threadId} {
+      allow read: if true; // everyone can read
+      allow write: if request.auth.uid != null; // only logged in users can update a thread info
+    }
+  }
+}
