@@ -16,9 +16,19 @@
 
     <div class="max-w-screen-md px-2 mx-auto text-base md:text-xl">
       <div class="flex items-center mb-4">
-        <h1 class="text-5xl font-bold">Hello</h1>
-        <img src="~/assets/images/alien.png" class="w-16 h-16 ml-2" />
+        <h1 class="text-4xl font-bold">Hello</h1>
+        <img src="~/assets/images/alien.png" class="w-12 h-12 ml-2" />
       </div>
+
+      <a
+        href="https://github.com/chidindu-ogbonna/threadspeaker"
+        class="inline-flex items-center mb-4 text-base text-gray-600 cursor-pointer hover:text-primary"
+      >
+        <span class="text-5xl">*</span>
+
+        Source code on Github
+        <github-icon class="w-5 h-5 ml-2"></github-icon>
+      </a>
 
       <div class="mb-4">
         My name is ThreadSpeaker. I make twitter threads talk 😈. Created by my
@@ -136,6 +146,7 @@
 <script>
 import XIcon from '@/assets/svg/x.svg?inline'
 import TwitterIcon from '@/assets/svg/twitter.svg?inline'
+import GithubIcon from '@/assets/svg/github.svg?inline'
 
 export default {
   layout: 'bare',
@@ -144,6 +155,7 @@ export default {
   components: {
     XIcon,
     TwitterIcon,
+    GithubIcon,
   },
 }
 </script>
