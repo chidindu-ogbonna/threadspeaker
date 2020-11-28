@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen">
-    <div class="mb-16">
+    <div class="mb-12">
       <h1
         class="flex flex-col mb-4 text-4xl font-bold tracking-tight text-center s-leading-sm md:text-5xl lg:text-6xl"
       >
@@ -30,27 +30,9 @@
         </a>
         for the best experience 🤗
       </div>
-
-      <div class="flex items-center justify-center pt-8">
-        <a
-          href="https://www.producthunt.com/posts/threadspeaker?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-threadspeaker"
-          target="_blank"
-          ><img
-            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=264273&theme=light"
-            alt="ThreadSpeaker - Listen to your favourite Twitter threads | Product Hunt Embed"
-            style="width: 250px; height: 54px"
-            width="250"
-            height="54"
-        /></a>
-      </div>
-
-      <!-- <div>
-        <div>This is an image section</div>
-        <img src="~/assets/images/guide-1.jpg" alt="" class="w-64 rounded-md" />
-      </div> -->
     </div>
 
-    <div class="max-w-screen-sm mx-auto mb-16 md:px-8 lg:px-16">
+    <div class="max-w-screen-md mx-auto mb-16 md:px-8 lg:px-16">
       <app-search-form
         placeholder="Find threads by Twitter handle e.g naval"
         type="text"
@@ -88,6 +70,17 @@
           </div>
         </template>
       </div>
+    </div>
+
+    <div class="fixed bottom-0 left-0 right-0 p-2">
+      <a
+        href="https://www.producthunt.com/posts/threadspeaker?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-threadspeaker"
+        target="_blank"
+        ><img
+          src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=264273&theme=light"
+          alt="ThreadSpeaker - Listen to your favourite Twitter threads | Product Hunt Embed"
+          class="w-48 lg:w-56"
+      /></a>
     </div>
   </div>
 </template>

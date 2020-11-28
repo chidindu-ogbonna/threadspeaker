@@ -1,5 +1,5 @@
 <template>
-  <footer class="px-4 py-8 md:px-16">
+  <footer class="px-4 py-4 pb-16 md:px-16">
     <div class="flex flex-col items-center justify-center">
       <div class="flex items-center mb-2">
         Copyright
