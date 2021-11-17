@@ -4,12 +4,12 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
   <url>
-    <loc>https://threadspeaker.app/</loc>
+    <loc>https://threadspeaker.xyz/</loc>
     <lastmod>2020-09-21T15:23:28+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://threadspeaker.app/about</loc>
+    <loc>https://threadspeaker.xyz/about</loc>
     <lastmod>2020-09-21T15:23:28+00:00</lastmod>
     <priority>0.80</priority>
   </url>

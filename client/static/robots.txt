@@ -1,1 +1,1 @@
-Sitemap: https://threadspeaker.app/sitemap.xml
+Sitemap: https://threadspeaker.xyz/sitemap.xml

@@ -199,7 +199,7 @@ export default {
       if (process.client) {
         return window.location.href
       } else {
-        return `https://threadspeaker.app/${this.thread.id}/`
+        return `https://threadspeaker.xyz/${this.thread.id}/`
       }
     },
 

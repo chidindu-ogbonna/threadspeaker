@@ -25,10 +25,10 @@ export const meta = [
   {
     hid: 'og:site_name',
     property: 'og:site_name',
-    content: 'threadspeaker.app',
+    content: 'threadspeaker.xyz',
   },
-  { name: 'twitter:url', content: 'https://threadspeaker.app' },
-  { hid: 'og:url', property: 'og:url', content: 'https://threadspeaker.app' },
+  { name: 'twitter:url', content: 'https://threadspeaker.xyz' },
+  { hid: 'og:url', property: 'og:url', content: 'https://threadspeaker.xyz' },
   { name: 'twitter:creator', content: '@threadspeaker' },
   {
     hid: 'twitter:description',
